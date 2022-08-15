@@ -1,0 +1,91 @@
+trilha origim, para quem nunca programou 
+front-end 
+
+trilha impulse, é para quem já domina os fundamentos. 
+
+tem que assistir as aulas na ordem 
+
+dicas:
+termos tecnicos e parece ser assustador, mas mantenha calma, não se desespere. 
+não precisa memorizar as coisas, o importante é aprender, não somos maquinas e está tudo bem não memorisar as coisas, não deixe o medo te travar. 
+
+O:5500 É O ENDEREÇO EXATO DA ONDE ESTÁ A PASTA NLW
+
+para fazer comentários 
+<!--
+texto/comentário
+-->
+
+hypertext = são link 
+markup = tags - marcação de texto 
+language = maneiras de escrever 
+
+o segredo do HTML é entender as tags, entendo as tags é mais fácil de entender como funciona o html 
+
+
+A recomendação é que o <h1></h1> seja usada apenas uma vez por página 
+
+<!DOCTYPE html>
+<html lang="en"> // primeira tag, chamada root ou raiz da HTML 
+<head> // cabeça
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+</head>
+<body> // corpo 
+  
+</body>
+</html>
+
+font-family: 'DM Sans';
+font-style: normal;
+font-weight: 700;
+font-size: 14px;
+line-height: 150%;
+letter-spacing: 0.08em;
+
+
+----------------***********------------
+
+Extenções para configurar o vscode
+Extensões:
+
+- Live Server
+- Material Icon Theme
+- Omni Theme
+- Prettier
+
+{
+    "editor.fontSize": 16,
+    "terminal.integrated.fontSize": 16,
+    "workbench.colorTheme": "Omni",
+    "workbench.iconTheme": "material-icon-theme",
+    "editor.bracketPairColorization.enabled": true,
+    "editor.minimap.enabled": false,
+    "editor.wordWrap": "on",
+    "workbench.editor.tabSizing": "shrink",
+    "explorer.compactFolders": false,
+    "files.autoSave": "afterDelay",
+  
+    // formatter
+    "prettier.tabWidth": 2,
+    "prettier.semi": false,
+    "prettier.singleQuote": true,
+    "prettier.trailingComma": "none",
+    "prettier.arrowParens": "avoid",
+    "prettier.endOfLine": "auto",
+    "editor.tabSize": 2,
+    "editor.formatOnSave": true,
+    "[javascript]": {
+      "editor.defaultFormatter": "esbenp.prettier-vscode"
+    },
+    "[html]": {
+      "editor.defaultFormatter": "esbenp.prettier-vscode"
+    },
+    "[css]": {
+      "editor.defaultFormatter": "esbenp.prettier-vscode"
+    },
+    "liveServer.settings.donotShowInfoMsg": true,
+    "liveServer.settings.donotVerifyTags": true,
+  }
