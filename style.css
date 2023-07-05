@@ -748,3 +748,7 @@ a {
   width: fit-content;
   text-align: center;
 }
+
+.endereco:hover {
+  background: #f1a20b;
+}
